@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+.home-container {
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.web-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.clothes-you-get-img-sm {
+  width: 100%;
+}
+
+.website-description {
+  color: #64748b;
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.shop-now-btn {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #0967d2;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+.clothes-you-get-img-lg {
+  display: none;
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    padding-right: 50px;
+    padding-left: 200px;
+  }
+
+  .logo-description-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .clothes-you-get-img-sm {
+    display: none;
+  }
+
+  .heading {
+    text-align: start;
+  }
+
+  .website-description {
+    text-align: start;
+  }
+
+  .clothes-you-get-img-lg {
+    display: block;
+  }
+
+  .web-info {
+    margin-right: 100px;
+    align-items: flex-start;
+  }
+}
